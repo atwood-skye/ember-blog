@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.head {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.navbar-fixed-left {
+  background-color: white;
+  color: black;
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  min-height: 100%;
+  float: none;
+  padding: 5px;
+}
+
+.navbar-fixed-left + .container {
+  margin-top: -100px;
+  padding-left: 160px;
+}
