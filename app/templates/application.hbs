@@ -1,14 +1,15 @@
-<header class="head">
-    <h1>Recipe Blog</h1>
-  </header>
-      <div class="navbar navbar-fixed-left">
-        {{#link-to 'contact'}}Contact Us{{/link-to}}
-        <br>
-        {{#link-to 'about'}}About{{/link-to}}
-      </div>
-    <div class="container">
-      <div class="row">
 
-        {{outlet}}
-      </div>
+    <div class="navbar navbar-fixed-top">
+      {{#link-to 'about'}}About{{/link-to}}
+      {{#link-to 'contact'}}Contact Us{{/link-to}}
+        </div>
+        <div class="container title">
+          <div class="row">
+            <h2>Recipe Blog</h2>
+          </div>
+        </div>
+  <div class="container content">
+    <div class="row">
+      {{outlet}}
     </div>
+  </div>

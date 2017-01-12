@@ -1,27 +1,16 @@
-body {
-  background-color: black;
-  color: white;
+.navbar-fixed-top {
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 20px;
+  background-color: #B3F1F5;
 }
 
-.head {
-  padding: 30px;
+.title {
+  margin-top: 50px;
   text-align: center;
-  background-color: white;
-  color: black;
 }
 
-.navbar-fixed-left {
-  background-color: white;
-  color: black;
-  width: 140px;
-  position: fixed;
-  border-radius: 0;
-  min-height: 100%;
-  float: none;
-  padding: 5px;
-}
-
-.navbar-fixed-left + .container {
-  margin-top: -100px;
-  padding-left: 160px;
+.content {
+  margin-top: 100px;
+  text-align: center;
 }
